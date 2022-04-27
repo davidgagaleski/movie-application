@@ -1,0 +1,26 @@
+{
+  "name": "movie-application",
+  "version": "1.0.0",
+  "description": "Application for searching movie information",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgagaleski/movie-trailer-app.git"
+  },
+  "author": "David Gagaleski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidgagaleski/movie-trailer-app/issues"
+  },
+  "homepage": "https://github.com/davidgagaleski/movie-trailer-app#readme",
+  "dependencies": {
+    "axios": "^0.27.1",
+    "express": "^4.18.0",
+    "hbs": "^4.2.0",
+    "node-cache": "^5.1.2"
+  }
+}
